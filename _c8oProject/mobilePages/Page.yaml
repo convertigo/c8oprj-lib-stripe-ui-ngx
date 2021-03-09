@@ -1,0 +1,161 @@
+↑isRoot: true
+comment: My First Page as root page
+preloadPriority: high
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: path-to-xfirst
+title: First page
+↓Header [ngx.components.UIDynamicElement-1491634212350]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Page header
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1491634231108]: 
+    beanData: '{"ionBean":"ToolBar","IonColor":"plain:primary"}'
+    tagName: ion-toolbar
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1588171103814]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      tagName: ion-buttons
+      ↓MenuButton [ngx.components.UIDynamicElement-1588172846908]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1491634265317]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1491634275121]: 
+        i18n: false
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Stripe Payment API demo
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1588170811054]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1588170817806]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Icon [ngx.components.UIDynamicElement-1588170831166]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:ellipsis-vertical"}'
+          tagName: ion-icon
+↓Content [ngx.components.UIDynamicElement-1489674805352]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Page content
+  tagName: ion-content
+  ↓Form [ngx.components.UIForm-1606642924354]: 
+    identifier: Payment
+    ↓FormItem [ngx.components.UIDynamicElement-1606643151197]: 
+      beanData: '{"ionBean":"FormItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1606643064422]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1606643071251]: 
+          i18n: false
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Amount in cents
+      ↓TextInputAmount [ngx.components.UIDynamicElement-1606642972083]: 
+        beanData: |
+          '{
+           "ionBean": "Input",
+           "ControlName": "plain:Amount",
+           "Debounce": "plain:0",
+           "Value": "plain:10000"
+          }'
+        tagName: ion-input
+        ↓FormatLayout [ngx.components.UIDynamicAttr-1606651768680]: 
+          beanData: '{"ionBean":"FormatLayout","TextAlignment":"plain:ion-text-end"}'
+          selfClose: false
+    ↓FormItem1 [ngx.components.UIDynamicElement-1606643159249]: 
+      beanData: '{"ionBean":"FormItem"}'
+      tagName: ion-item
+      ↓Label1 [ngx.components.UIDynamicElement-1606643067140]: 
+        beanData: '{"ionBean":"Label"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1606643073651]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Currency (USD, EUR, etc ..)
+      ↓TextInputCurrency [ngx.components.UIDynamicElement-1606642974962]: 
+        beanData: |
+          '{
+           "ionBean": "Input",
+           "ControlName": "plain:Currency",
+           "Debounce": "plain:0",
+           "Value": "plain:USD"
+          }'
+        tagName: ion-input
+        ↓FormatLayout [ngx.components.UIDynamicAttr-1606651822242]: 
+          beanData: '{"ionBean":"FormatLayout","TextAlignment":"plain:ion-text-end"}'
+          selfClose: false
+  ↓Button [ngx.components.UIDynamicElement-1606645226150]: 
+    beanData: '{"ionBean":"Button"}'
+    tagName: ion-button
+    ↓Text [ngx.components.UIText-1606645234286]: 
+      i18n: false
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:Pay Now
+    ↓FormatLayout [ngx.components.UIDynamicAttr-1606645266678]: 
+      beanData: '{"ionBean":"FormatLayout","FloatPlacement":"plain:ion-float-end"}'
+      selfClose: false
+    ↓Event [ngx.components.UIControlEvent-1606645433191]: 
+      ↓ModalPage [ngx.components.UIDynamicAction-1606645493950]: 
+        beanData: |
+          '{
+           "ionBean": "ModalAction",
+           "page": "plain:lib_Stripe_Ngx.MobileApplication.Application.PaymentPage",
+           "data": "source:{\"filter\":\"Form\",\"project\":\"lib_Stripe\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1606642924354,\"identifier\":\"Payment\"}],\"path\":\"?.controls\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"
+          }'
+↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
+  beanData: '{"ionBean":"Footer"}'
+  comment: Page footer
+  tagName: ion-footer
+  ↓ToolBar [ngx.components.UIDynamicElement-1491634317538]: 
+    beanData: '{"ionBean":"ToolBar","IonColor":"plain:primary"}'
+    tagName: ion-toolbar
+    ↓ButtonSet [ngx.components.UIDynamicElement-1588170246138]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      tagName: ion-buttons
+      ↓Button1 [ngx.components.UIDynamicElement-1491634332730]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Text [ngx.components.UIText-1491634340354]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Action 1
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1588170269871]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button2 [ngx.components.UIDynamicElement-1491634376874]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Text [ngx.components.UIText-1491634383107]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Action 2
+↓Subscribe_Handler [ngx.components.UIEventSubscriber-1606651365112]: 
+  topic: stripeEvent
+  ↓Toast [ngx.components.UIDynamicAction-1606650850743]: 
+    beanData: |
+      '{
+       "ionBean": "ToastAction",
+       "message": "script:JSON.stringify(out)",
+       "position": "plain:middle"
+      }'

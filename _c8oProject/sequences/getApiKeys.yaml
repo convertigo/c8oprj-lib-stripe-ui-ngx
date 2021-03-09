@@ -1,0 +1,13 @@
+↓Input_variables [steps.InputVariablesStep-1606501386326]: 
+↓Element [steps.XMLElementStep-1606501081001]: 
+  nodeName: publicApiKey
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1606501386326
+        - java.lang.String: 
+          - ↑value: ./publicApiKey/text()
+↓publicApiKey [variables.RequestableVariable-1606501360162]: 
+  value: ${lib_Stripe_Ngx.publicApiKey}

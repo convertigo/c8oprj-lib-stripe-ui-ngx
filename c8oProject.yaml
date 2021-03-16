@@ -4,11 +4,11 @@
   corsOrigin: =Origin
   version: 8.0.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
-  ↓CreatePaymentIntent [sequences.GenericSequence]: 🗏 sequences/CreatePaymentIntent.yaml
-  ↓getApiKeys [sequences.GenericSequence]: 🗏 sequences/getApiKeys.yaml
   ↓NgxBuilderTemplate [references.ProjectSchemaReference]: 
     comment: ngx builder template
     projectName: mobilebuilder_tpl_8_0_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_8_0_0_ngx.zip
+  ↓Project_reference [references.ProjectSchemaReference]: 
+    projectName: lib_Stripe=https://github.com/convertigo/c8oprj-lib-stripe.git:branch=7.9.0:autoPull=true
   ↓MobileApplication [core.MobileApplication]: 
     comment: Describes the mobile application global properties
     splashRemoveMode: beforeUpdate

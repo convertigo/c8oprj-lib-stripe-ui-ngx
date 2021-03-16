@@ -197,21 +197,21 @@
     attrName: (blur)
     eventName: (blur)
     ↓CallSequenceGetApiKeys [ngx.components.UIDynamicAction-1606501183024]: 
-      beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_Stripe_Ngx.getApiKeys"}'
+      beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_Stripe.getApiKeys"}'
       ↓CallSequenceCreatePaymentIntent [ngx.components.UIDynamicAction-1606557106075]: 
-        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_Stripe_Ngx.CreatePaymentIntent"}'
+        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_Stripe.CreatePaymentIntent"}'
         ↓amount [ngx.components.UIControlVariable-1606557117293]: 
           comment: new variable
           varValue: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_Stripe_Ngx","input":"","model":{"data":[{"priority":1606559954121}],"path":"?.AmountInCents","prefix":"","suffix":"","custom":"","useCustom":false}}
+              - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_Stripe_ui_ngx","input":"","model":{"data":[{"priority":1606559954121}],"path":"?.AmountInCents","prefix":"","suffix":"","custom":"","useCustom":false}}
         ↓currency [ngx.components.UIControlVariable-1606557117295]: 
           comment: new variable
           varValue: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_Stripe_Ngx","input":"","model":{"data":[{"priority":1606559954121}],"path":"?.Currency","prefix":"","suffix":"","custom":"","useCustom":false}}
+              - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_Stripe_ui_ngx","input":"","model":{"data":[{"priority":1606559954121}],"path":"?.Currency","prefix":"","suffix":"","custom":"","useCustom":false}}
         ↓InstallStripeClient [ngx.components.UICustomAction-1606499731944]: 
           actionValue: 
             - xmlizable: 
@@ -334,12 +334,12 @@
             varValue: 
               - xmlizable: 
                 - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_Stripe_Ngx","input":"","model":{"data":[{"sequence":"lib_Stripe_Ngx.getApiKeys","marker":""}],"path":"?.publicApiKey","prefix":"","suffix":"","custom":"","useCustom":false}}
+                - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_Stripe_ui_ngx","input":"","model":{"data":[{"sequence":"lib_Stripe.getApiKeys","marker":""}],"path":"?.publicApiKey","prefix":"","suffix":"","custom":"","useCustom":false}}
           ↓clientSecret [ngx.components.UIControlVariable-1606639194131]: 
             varValue: 
               - xmlizable: 
                 - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_Stripe_Ngx","input":"","model":{"data":[{"sequence":"lib_Stripe_Ngx.CreatePaymentIntent","marker":""}],"path":"?.clientSecret","prefix":"","suffix":"","custom":"","useCustom":false}}
+                - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_Stripe_ui_ngx","input":"","model":{"data":[{"sequence":"lib_Stripe.CreatePaymentIntent","marker":""}],"path":"?.clientSecret","prefix":"","suffix":"","custom":"","useCustom":false}}
           ↓PublishEvent [ngx.components.UIDynamicAction-1606650743551]: 
             beanData: |
               '{

@@ -118,7 +118,7 @@ title: First page
         beanData: |
           '{
            "ionBean": "ModalAction",
-           "page": "plain:lib_Stripe_Ngx.MobileApplication.Application.PaymentPage",
+           "page": "plain:lib_Stripe_ui_ngx.MobileApplication.Application.PaymentPage",
            "data": "source:{\"filter\":\"Form\",\"project\":\"lib_Stripe\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1606642924354,\"identifier\":\"Payment\"}],\"path\":\"?.controls\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"
           }'
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 

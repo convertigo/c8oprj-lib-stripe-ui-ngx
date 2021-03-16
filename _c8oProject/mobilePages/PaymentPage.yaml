@@ -29,7 +29,7 @@ title: Title for PaymentPage
         beanData: '{"ionBean":"GridCol","FlexAlignement":"plain:ion-align-self-center"}'
         tagName: ion-col
         ↓UseSharedComponent [ngx.components.UIUseShared-1606560012480]: 
-          sharedcomponent: lib_Stripe_Ngx.MobileApplication.Application.StripeCreditCardPayment
+          sharedcomponent: lib_Stripe_ui_ngx.MobileApplication.Application.StripeCreditCardPayment
           ↓AmountInCents [ngx.components.UIControlVariable-1606640610255]: 
             varValue: 
               - xmlizable: 

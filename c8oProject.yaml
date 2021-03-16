@@ -1,8 +1,8 @@
 ↑convertigo: 8.0.0.m006
-↓lib_Stripe_Ngx [core.Project]: 
+↓lib_Stripe_ui_ngx [core.Project]: 
   comment: Convertigo Mobile builder Project
   corsOrigin: =Origin
-  version: 2.0.0
+  version: 8.0.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓CreatePaymentIntent [sequences.GenericSequence]: 🗏 sequences/CreatePaymentIntent.yaml
   ↓getApiKeys [sequences.GenericSequence]: 🗏 sequences/getApiKeys.yaml

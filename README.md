@@ -1,4 +1,4 @@
-# lib_Stripe_Ngx
+# lib_Stripe_ui_ngx
 This is the __Stripe Payment Platform__ Connector for Convertigo. This enables Convertigo Mobile or Desktop apps to interact with the Stripe platform for building __eCommerce__ or __mCommerce__ applications to accept payments.
 
 ![Capture](./docImage/Capture.PNG)
@@ -9,7 +9,7 @@ This is the __Stripe Payment Platform__ Connector for Convertigo. This enables C
 
 * In the Dialog 'Project remote URL' field Paste :
 
-        lib_Stripe_Ngx=https://github.com/convertigo/c8oprj-lib-stripe-ngx.git
+        lib_Stripe_ui_ngx=https://github.com/convertigo/c8oprj-lib-stripe-ui-ngx.git:branch=8.0.0
 
 * And click the 'Finish' button
 

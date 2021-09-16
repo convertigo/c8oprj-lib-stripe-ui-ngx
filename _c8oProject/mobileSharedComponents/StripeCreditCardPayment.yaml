@@ -340,6 +340,13 @@
               - xmlizable: 
                 - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
                 - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_Stripe_ui_ngx","input":"","model":{"data":[{"sequence":"lib_Stripe.CreatePaymentIntent","marker":""}],"path":"?.clientSecret","prefix":"","suffix":"","custom":"","useCustom":false}}
+          ↓EmitEvent [ngx.components.UIDynamicEmit-1631810529923]: 
+            beanData: |
+              '{
+               "ionBean": "EmitEventAction",
+               "event": "plain:lib_Stripe_ui_ngx.MobileApplication.Application.StripeCreditCardPayment.stripeEvent",
+               "data": "script:out"
+              }'
           ↓PublishEvent [ngx.components.UIDynamicAction-1606650743551]: 
             beanData: |
               '{
@@ -351,3 +358,5 @@
   value: '''0'''
 ↓Currency [ngx.components.UICompVariable-1606640542623]: 
   value: '''USD'''
+↓stripeEvent [ngx.components.UICompEvent-1631810529909]: 
+  attrName: stripeEvent

@@ -25,7 +25,7 @@ componentScriptContent:
         
 tplProjectName: mobilebuilder_tpl_8_0_0_ngx
 ↓Menu [ngx.components.UIDynamicMenu-1500890597895]: 🗏 mobileMenus/Menu.yaml
-↓StripeCreditCardPayment [ngx.components.UISharedComponent-1606559954121]: 🗏 mobileSharedComponents/StripeCreditCardPayment.yaml
+↓StripeCreditCardPayment [ngx.components.UISharedRegularComponent-1606559954121]: 🗏 mobileSharedComponents/StripeCreditCardPayment.yaml
 ↓Page [ngx.components.PageComponent-1500538678074]: 🗏 mobilePages/Page.yaml
 ↓PaymentPage [ngx.components.PageComponent-1606645157460]: 🗏 mobilePages/PaymentPage.yaml
 ↓Style [ngx.components.UIStyle-1491635462437]: 

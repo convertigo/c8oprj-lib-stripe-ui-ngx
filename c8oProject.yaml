@@ -2,7 +2,7 @@
 ↓lib_Stripe_ui_ngx [core.Project]: 
   comment: Convertigo Mobile builder Project
   corsOrigin: =Origin
-  version: 8.0.0
+  version: 8.0.1
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓NgxBuilderTemplate [references.ProjectSchemaReference]: 
     comment: ngx builder template

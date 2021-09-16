@@ -30,12 +30,12 @@ title: Title for PaymentPage
         tagName: ion-col
         ↓UseSharedComponent [ngx.components.UIUseShared-1606560012480]: 
           sharedcomponent: lib_Stripe_ui_ngx.MobileApplication.Application.StripeCreditCardPayment
-          ↓AmountInCents [ngx.components.UIControlVariable-1606640610255]: 
+          ↓AmountInCents [ngx.components.UIUseVariable-1606640610255]: 
             varValue: 
               - xmlizable: 
                 - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
                 - MobileSmartSourceType: 'script:this.navParams.data[''Amount''].value ? this.navParams.data[''Amount''].value : ''0'''
-          ↓Currency [ngx.components.UIControlVariable-1606640610257]: 
+          ↓Currency [ngx.components.UIUseVariable-1606640610257]: 
             varValue: 
               - xmlizable: 
                 - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
